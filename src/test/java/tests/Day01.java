@@ -2,7 +2,7 @@ package tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.Page;
+import pages.AutomationPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
@@ -11,7 +11,7 @@ public class Day01 {
     // signUp linkine tiklayalim
     // name ve email adress kismina bilgiler gondererek uye olalim
     // uye olundugunu test edelim
-    Page automation=new Page();
+    AutomationPage automation=new AutomationPage();
 
     @Test
     public void test01(){
