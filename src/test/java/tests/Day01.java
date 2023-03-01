@@ -11,6 +11,7 @@ public class Day01 {
     // signUp linkine tiklayalim
     // name ve email adress kismina bilgiler gondererek uye olalim
     // uye olundugunu test edelim
+    // test yazısı yazıldı
     AutomationPage automation=new AutomationPage();
 
     @Test
